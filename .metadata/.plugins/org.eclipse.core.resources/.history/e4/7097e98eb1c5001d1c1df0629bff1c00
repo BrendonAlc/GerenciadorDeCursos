@@ -1,0 +1,15 @@
+package Teste;
+
+import Modelo.Recibo;
+
+public class TestaRecibo {
+
+	public static void main(String[] args) {
+		Recibo janeiro = new Recibo();
+		Recibo fevereiro = new Recibo();
+		Recibo marco = new Recibo();
+		
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package Modelo;
+
+public class Funcionario {
+
+	private String nome;
+	private int idade;
+	
+	public void Funcionarios(String nome, int idade) {
+		this.nome = nome;
+		this.idade = idade;
+	}
+}

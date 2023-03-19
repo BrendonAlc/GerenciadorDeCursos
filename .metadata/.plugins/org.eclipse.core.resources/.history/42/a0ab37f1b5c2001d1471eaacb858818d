@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class TestandoListas {
+
+	public static void main(String[] args) {
+
+		String curso1 = "Java";
+		String curso2 = "C#";
+		String curso3 = "QA";
+		
+		ArrayList<String> cursos = new ArrayList<>();	
+		cursos.add(curso1);
+		cursos.add(curso2);
+		cursos.add(curso3);
+		
+		System.out.println(cursos);
+
+		
+	}
+
+}

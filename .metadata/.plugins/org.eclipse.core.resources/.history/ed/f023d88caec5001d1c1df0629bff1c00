@@ -1,0 +1,12 @@
+package Modelo;
+
+public class Recibo extends Aluno {
+
+	double valor;
+
+	public Recibo(String nome, int numeroMatricula) {
+		super(nome, numeroMatricula);
+	}
+	
+	
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\brend\Documents\Cursos\Alura\ListaDeCursos\.metadata\.plugins\org.eclipse.jdt.core
+4147934183.index
+1865797976.index
+3988555921.index

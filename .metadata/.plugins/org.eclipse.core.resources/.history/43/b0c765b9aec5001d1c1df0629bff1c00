@@ -1,0 +1,12 @@
+package Modelo;
+
+public class Recibo {
+
+	public boolean Recibo(String janeiro) {
+		if (janeiro != janeiro) {
+			throw new NullPointerException("O recibo não está de acordo com o mës vigente!");
+		}
+		return this.janeiro = janeiro;
+	}
+	
+}

@@ -1,0 +1,22 @@
+package Teste;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class testeAlunos {
+
+	public static void main(String[] args) {
+		Set<String> alunos = new HashSet<>();
+		alunos.add("Luciana Vieira");
+		alunos.add("Juninho");
+		alunos.add("Rildo da Silva");
+		alunos.add("João Pedro");
+		
+		System.out.println(alunos);
+		
+		for (String aluno : alunos) {
+			System.out.println(alunos);
+		}
+		
+	}
+}

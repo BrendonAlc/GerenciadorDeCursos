@@ -1,0 +1,13 @@
+package Teste;
+
+import Modelo.Curso;
+
+class TestaCurso {
+
+	public static void main(String[] args) {
+		Curso javaColecoes = new Curso("Dominando as colecoes do Java", "Brendon Alcantara");
+		javaColecoes.getAulas();
+
+	}
+
+}

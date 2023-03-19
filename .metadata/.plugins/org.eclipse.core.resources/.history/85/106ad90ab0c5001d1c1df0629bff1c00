@@ -1,0 +1,26 @@
+package Modelo;
+
+public class Recibo {
+
+	private String janeiro;
+	private String fevereiro;
+	private String marco;
+	private String abril;
+	private String maio;
+	private String junho;
+	private String julho;
+	private String agosto;
+	private String setembro;
+	private String outubro;
+	private String novembro;
+	private String dezembro;
+	
+
+	public String Recibo(int mes) {
+		if (mes > 12) {
+			throw new NullPointerException("O recibo não está de acordo com o mës vigente!");
+		}
+		return this.janeiro = janeiro;
+	}
+	
+}

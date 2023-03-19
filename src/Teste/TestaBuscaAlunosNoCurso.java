@@ -1,0 +1,31 @@
+package Teste;
+
+import Modelo.Aluno;
+import Modelo.Aula;
+import Modelo.Curso;
+
+public class TestaBuscaAlunosNoCurso {
+
+	public static void main(String[] args) {
+		Curso javaColecoes = new Curso("Dominando as colecoes do Java", "Brendon Alcantara");
+
+		javaColecoes.adiciona(new Aula("Trabalhando com ArrayList", 21));
+		javaColecoes.adiciona(new Aula("Criando uma aula", 20));
+		javaColecoes.adiciona(new Aula("Modelando com coleções", 21));
+
+		// Criar alunos
+		Aluno a1 = new Aluno("Brendon Alcantara", 34672);
+		Aluno a2 = new Aluno("Raymundo", 5617);
+		Aluno a3 = new Aluno("Paulo Silveira", 17645);
+
+		// Adicionar alunos e matricula-los no curso
+		javaColecoes.matricula(a1);
+		javaColecoes.matricula(a2);
+		javaColecoes.matricula(a3);
+		
+		System.out.println("Quem é o aluno com matricula 5617?");
+		Aluno aluno = javaColecoes.buscaMatriculado(5619);
+		System.out.println("aluno : " + aluno);
+	}
+
+}
